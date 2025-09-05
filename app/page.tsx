@@ -1,17 +1,20 @@
 export default function Home() {
   return (
     <>
-      <main className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-b from-blue-50 to-white p-8">
-        <h1 className="text-5xl font-bold text-gray-800 mb-4">恭喜你！🎉</h1>
-        <p className="text-xl text-gray-600 text-center max-w-xl">
-          你成功開啟了自己的第一個網站！
-          <br />
-          就讓我們用這份檔案開始 Vibe Coding 之旅吧！
-          <br />
-          偷偷告訴你，如果你想看首頁的原始碼，可以去看看這個檔案: <br />
-          <code>@/app/page.tsx</code>
-        </p>
-      </main>
+      {/* header */}
+      <header className="py-20 bg-gray-200 text-gray-700 text-center border-b border-gray-300">
+        <div className="container mx-auto">
+          <h1 className="text-4xl font-bold">My First Website</h1>
+          <p className="text-lg mt-3">This is my first website built with Next.js</p>
+        </div>
+      </header>
+      {/* section1 */}
+      <section className="py-10">
+        <div className="container mx-auto">
+          <h2 className="text-2xl font-bold text-center mb-10">Section 1</h2>
+
+        </div>
+      </section>
     </>
   );
 }
